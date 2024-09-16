@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4b5e9e4f-6ebb-4d18-a752-d494ef728eb6)# E-commerce Data Analysis Report
+### E-commerce Data Analysis Report
 
 ## Data Understanding
 
