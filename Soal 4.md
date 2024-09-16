@@ -51,7 +51,7 @@ Key fields analyzed:
 | Taiwan        | Referral       | USD 797.10 B            |
 | Curaçao       | Organic Search | USD 208.33 B            |
 
-Test Case 1: ChannelAnalysis Query
+**[Test Case 1: Channel](https://console.cloud.google.com/bigquery?sq=357341608012:b86498819bd3437b85236cc18c9e655f)**
 
 Insights:
 1. The query identifies the top 5 countries by total transaction revenue.
@@ -68,6 +68,8 @@ Key Takeaways:
 |--------------------|------------------|---------------|---------------------|
 | 3.490247e+18       | 4914.0           | 31.0          | 9.0                 |
 | 6.036794e+18       | 1616.0           | 13.0          | 38.0                |
+
+**[Test Case 2: User Behavior](https://console.cloud.google.com/bigquery?sq=357341608012:8f458ddb506641ff9787518fd6fc601a)**
 
 Insights:
 1. The query focuses on users who spend above-average time on the site but view fewer pages than average.
@@ -91,6 +93,8 @@ Key Takeaways:
 | Google Lunch Bag                  | USD 111.27 B            | 1              |
 | Google Collapsible Pet Bowl       | USD 88.98 B             | 1              |
 | Google Pet Feeding Mat            | USD 87.48 B             | 1              |
+
+**[Test Case 3: Product Performance](https://console.cloud.google.com/bigquery?sq=357341608012:0359f812890a434085882e17c68440f6)**
 
 Insights:
 1. The query identifies the top 10 products by total transaction revenue.
