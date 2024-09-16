@@ -3,6 +3,7 @@
 ## Prompt and Results
 
 ![image](https://github.com/user-attachments/assets/53886c4d-dbb5-46cc-bf01-c609062b0947)
+
 Here's the GPT Prompt that I've put on ChatGPT, below are the result of the prompt:
 
 ![image](https://github.com/user-attachments/assets/55e8076c-527b-4ae1-b95c-6c7b5061a2e4)
@@ -14,11 +15,6 @@ Here's the GPT Prompt that I've put on ChatGPT, below are the result of the prom
 ## Overview
 
 This project focuses on transforming and analyzing transaction data to uncover trends and anomalies (unexpected behaviors or patterns). It includes multiple scenarios that address data quality issues, enhance readability, and improve the detection of unusual transaction patterns. The transformations are focused on improving data aggregation (combining data into summary form), formatting, and visualizations for effective business insights.
-
-
-## Overview
-
-This project focuses on transforming and analyzing transaction data to uncover trends and anomalies. It includes multiple scenarios that address data quality issues, enhance readability, and improve the detection of unusual transaction patterns. The transformations are focused on improving data aggregation, formatting, and visualizations for effective business insights.
 
 ---
 
@@ -40,7 +36,7 @@ This project focuses on transforming and analyzing transaction data to uncover t
 ### Scenario 1: Daily Total Transaction Revenue by Product
 
 #### Problem:
-The initial visualization displayed all products and their total daily transaction revenue, which resulted in an unreadable x-axis. Additionally, transaction amounts were displayed without specifying the currency.
+The initial code provided by ChatGPT visualization displayed all products and their total daily transaction revenue, which resulted in an unreadable x-axis. Additionally, transaction amounts were displayed without specifying the currency.
 
 #### Solution:
 - Group data by `date` and `v2ProductName` to calculate the total revenue per product each day.
