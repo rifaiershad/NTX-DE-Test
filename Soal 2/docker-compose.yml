@@ -1,0 +1,22 @@
+version: "3"
+services:
+  # Define the API service
+  api:
+    # Build from the Dockerfile in the current directory
+    build: 
+      context: .
+      dockerfile: Dockerfile_api
+    # Map port 6000 on the host to port 6000 in the container
+    ports:
+      - "6000:6000"
+
+  # Define the ETL service
+  etl:
+    # Build from the Dockerfile in the current directory
+    build:
+      context: .
+      dockerfile: Dockerfile_etl
+    # Make the ETL service depend on the API service
+    # This ensures the API is running before the ETL starts
+    depends_on:
+      - api
