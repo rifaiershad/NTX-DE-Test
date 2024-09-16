@@ -51,6 +51,8 @@ Key fields analyzed:
 | Taiwan        | Referral       | USD 797.10 B            |
 | Curaçao       | Organic Search | USD 208.33 B            |
 
+Test Case 1: ChannelAnalysis Query
+
 Insights:
 1. The query identifies the top 5 countries by total transaction revenue.
 2. For each of these countries, it breaks down the revenue by channel grouping.
